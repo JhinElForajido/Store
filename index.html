@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Catálogo Sniper Store</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <!-- Sidebar/menu -->
+  <nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
+    <div class="w3-container w3-display-container w3-padding-16">
+      <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
+      <img src="/LOGOEMPRESA-removebg-preview.png" alt="Logo" style="max-width: 250px; max-height: 250px;">
+    </div>
+
+    <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
+      <a href="#" class="w3-bar-item" style="font-weight: bold;">Audífonos</a>
+      <a href="#" class="w3-bar-item" style="font-weight: bold;">Accesorios</a>
+      <a href="#" class="w3-bar-item" style="font-weight: bold;">Y mucho más</a>
+
+
+
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding"
+        onclick="document.getElementById('newsletter').style.display='block'">Contáctanos</a>
+
+  </nav>
+
+  <!-- Top menu on small screens -->
+  <header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+    <div class="w3-bar-item w3-padding-24 w3-wide">SniperStore</div>
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i
+        class="fa fa-bars"></i></a>
+  </header>
+
+  <!-- Overlay effect when opening sidebar on small screens -->
+  <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu"
+    id="myOverlay"></div>
+
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-main" style="margin-left:250px">
+
+    <!-- Push down content on small screens -->
+    <div class="w3-hide-large" style="margin-top:83px"></div>
+
+
+    <!-- Image header -->
+    <div class="w3-display-container w3-container">
+      <img src="https://th.bing.com/th/id/R.f8b511fca58c15e1482fd91d2b2a5b6c?rik=Q0VC42bzS5IalQ&pid=ImgRaw&r=0"
+        alt="Jeans" style="width:1200px; height:400px; object-fit: cover; object-position: top;">
+
+      <div class="w3-display-topleft w3-text-white" style="padding:24px 48px">
+        <h1 class="w3-jumbo w3-hide-small"
+          style="text-shadow: 2px 2px 4px #000; font-family: 'Arial Black', sans-serif;">Bienvenido a nuestro Catálogo
+        </h1>
+        <h1 class="w3-hide-large w3-hide-medium"></h1>
+        <h1 class="w3-hide-small" style="text-shadow: 2px 2px 4px #000; font-family: 'Arial Black', sans-serif;">Si te
+          interesa algo no dudes en contactarnos</h1>
+      </div>
+
+
+      <div class="w3-container w3-text-grey" id="jeans">
+        <p>4 items</p>
+      </div>
+
+      <div class="w3-row w3-grayscale">
+        <div class="w3-col l3 s6">
+          <div class="w3-container">
+            <div class="w3-display-container">
+              <img
+                src="https://ae01.alicdn.com/kf/S778f343d351d425089a2824d8d9ebc23i/Auriculares-inal-mbricos-E7S-TWS-con-Bluetooth-cascos-deportivos-con-Control-resistentes-al-agua-micr-fono.jpg_.webp"
+                style="width:100%">
+              <span class="w3-tag w3-display-topleft">Nuevo</span>
+              <div class="w3-display-middle w3-display-hover">
+                <a href="#" class="w3-button w3-black w3-block">Ver <i class="fa fa-eye"></i></a>
+              </div>
+            </div>
+            <p>Auriculares inalámbricos E7S TWS blancos<br><b>$8000</b></p>
+          </div>
+        </div>
+        <div class="w3-col l3 s6">
+          <div class="w3-container">
+            <div class="w3-display-container">
+              <img
+                src="https://ae01.alicdn.com/kf/S1e12ba0b6ab34a9d9da279138540e4288/Auriculares-inal-mbricos-Y30-BT5-0-cascos-Mini-TWS-a-prueba-de-sudor-deportivos-Inear-con.jpg_640x640.jpg_.webp"
+                style="width:100%">
+              <span class="w3-tag w3-display-topleft">Nuevo</span>
+              <div class="w3-display-middle w3-display-hover">
+                <a href="#" class="w3-button w3-black w3-block">Ver <i class="fa fa-eye"></i></a>
+              </div>
+            </div>
+            <p>Auriculares inalámbricos Y30 BT5.0 negros<br><b>$8000</b></p>
+          </div>
+        </div>
+        <div class="w3-col l3 s6">
+          <div class="w3-container">
+            <div class="w3-display-container">
+              <img
+                src="https://ae01.alicdn.com/kf/S15b7bbef222c4813bb3b9096110c7527n/Auriculares-inal-mbricos-X15-TWS-con-bluetooth-5-3-cascos-de-baja-latencia-para-videojuegos-con.jpg_640x640.jpg_.webp"
+                style="width:100%">
+              <span class="w3-tag w3-display-topleft">Nuevo</span>
+              <div class="w3-display-middle w3-display-hover">
+                <a href="#" class="w3-button w3-black w3-block">Ver <i class="fa fa-eye"></i></a>
+              </div>
+            </div>
+            <p>Auriculares inalámbricos X15 TWS morados<br><b>$8000</b></p>
+          </div>
+        </div>
+        <div class="w3-col l3 s6">
+          <div class="w3-container">
+            <div class="w3-display-container">
+              <img
+                src="https://ae01.alicdn.com/kf/Sff0b4463116949ecb45d6e9632e70a12Y/Auriculares-inal-mbricos-F9-TWS-con-Bluetooth-cascos-est-reo-de-m-sica-HIFI-con-micr.jpg_640x640.jpg_.webp"
+                style="width:100%">
+              <span class="w3-tag w3-display-topleft">Nuevo</span>
+              <div class="w3-display-middle w3-display-hover">
+                <a href="#" class="w3-button w3-black w3-block">Ver <i class="fa fa-eye"></i></a>
+              </div>
+            </div>
+            <p>Auriculares inalámbricos F9 TWS<br><b>$9000</b></p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <!-- Footer -->
+      <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
+        <div class="w3-row-padding">
+
+
+          <div class="w3-col s4">
+            <h4>Información</h4>
+            <p><a href="#">nosotros</a></p>
+
+
+          </div>
+
+          <div class="w3-col s4 w3-justify">
+            <h4>Contacto</h4>
+            <p><i class="fa fa-fw fa-map-marker"></i> SniperStore</p>
+            <p><i class="fa fa-fw fa-phone"></i> 951570733</p>
+            <p><i class="fa fa-fw fa-envelope"></i> contacto.jconcha@gmail.com </p>
+
+            <br>
+
+            <i class="fa fa-instagram w3-hover-opacity w3-large"></i>
+          </div>
+        </div>
+      </footer>
+
+      <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp"
+          title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
+
+      <!-- End page content -->
+    </div>
+
+    <!-- Newsletter Modal -->
+    <div id="newsletter" class="w3-modal">
+      <div class="w3-modal-content w3-animate-zoom" style="padding:32px">
+        <div class="w3-container w3-white w3-center">
+          <i onclick="document.getElementById('newsletter').style.display='none'"
+            class="fa fa-remove w3-right w3-button w3-transparent w3-xxlarge"></i>
+          <h2 class="w3-wide">Contáctanos</h2>
+          <p>Necesitas ayuda? o comprar algo? contáctanos a nuestras redes sociales.</p>
+        </div>
+        <div class="w3-center">
+          <a href="#" class="w3-padding"><i class="fa fa-instagram w3-hover-opacity w3-large"></i></a>
+          <a href="https://api.whatsapp.com/send?phone=123456789" class="w3-padding"><i
+              class="fa fa-whatsapp w3-hover-opacity w3-large"></i></a>
+          <a href="mailto:info@example.com" class="w3-padding"><i
+              class="fa fa-envelope w3-hover-opacity w3-large"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Accordion 
+      function myAccFunc() {
+        var x = document.getElementById("demoAcc");
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else {
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+
+      // Click on the "Jeans" link on page load to open the accordion for demo purposes
+      document.getElementById("myBtn").click();
+
+
+      // Open and close sidebar
+      function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+      }
+
+      function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+      }
+    </script>
+
+</body>
+
+</html>
